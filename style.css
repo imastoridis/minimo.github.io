@@ -15,12 +15,23 @@ url('FONTSPLAYFAIR/Playfair_Display.ttf') format('truetype'),
 url('FONTSPLAYFAIR/Playfair_Display.svg') format('svg'); 
 }
 
+html{
+  font-size: 100%;
+}
 @media screen and (min-width: 50em){
   html { 
   font-size: 1vw;
   }
 }
 
+body{
+  color: rgb(98 98 98);
+  font-family: 'Playfair_Display'; 
+}
+
+img,a, #image{
+  pointer-events: none;
+}
 
 #header{
   text-align: center;
@@ -32,11 +43,10 @@ url('FONTSPLAYFAIR/Playfair_Display.svg') format('svg');
   flex-direction:row;
   justify-content:flex-end;  
   font-family: 'Playfair_Display'; 
-  font-size: 1em;
+  font-size: 1rem;
 }
  
 .nav-link{  
-  padding-right: 2.5em;
   font-family: 'Playfair_Display'; 
 }
 
@@ -44,15 +54,12 @@ url('FONTSPLAYFAIR/Playfair_Display.svg') format('svg');
   color: #000;
 }
 
-body{
-  color: rgb(98 98 98);
-  font-family: 'Playfair_Display'; 
-}
-
 #logo{
-  margin-right: 21em;
+  margin-right: 27rem;
   pointer-events: none;
 }
+
+
 #container1{
   display: flex; 
   text-align: center;
@@ -92,7 +99,7 @@ body{
   margin-right: 3vw;
   text-align: left; 
   font-weight:bold;
-  font-size: 1.7vw;
+  font-size: 1.7rem;
 }
 
 .text{
@@ -102,7 +109,7 @@ body{
 }
 
 .title{
-  font-size: 1vw;
+  font-size: 1rem;
   margin-left: 3em;
   text-align: left;
   padding-top: 10px;
@@ -117,9 +124,6 @@ body{
   color: rgb(199 193 182);
 }
 
-img,a, #image{
-  pointer-events: none;
-}
 
 #email{
   border: none;
@@ -132,7 +136,7 @@ img,a, #image{
 
 #button{
   border:none;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .full-width {
@@ -145,7 +149,7 @@ img,a, #image{
 }
 
 h1{
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .text-photo{
