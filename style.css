@@ -37,6 +37,7 @@ img,a, #image{
 h1{
   font-size: 3rem;
 }
+
 #header{
   text-align: center;
   font-family: 'UBUNTU';
@@ -49,6 +50,8 @@ h1{
  
 .nav-link{  
   font-family: 'Playfair_Display'; 
+  
+  margin-right: -30px;
 }
 
 .nav-link:hover {
