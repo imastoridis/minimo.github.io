@@ -17,8 +17,8 @@ url('FONTSPLAYFAIR/Playfair_Display.svg') format('svg');
 
 html{
   font-size: 100%;
-
 }
+
 @media screen and (min-width: 50em){
   html { 
   font-size: 1vw;
@@ -35,7 +35,7 @@ img,a, #image{
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 #header{
@@ -50,7 +50,6 @@ h1{
  
 .nav-link{  
   font-family: 'Playfair_Display'; 
-  
   margin-right: -30px;
 }
 
@@ -63,7 +62,6 @@ h1{
   pointer-events: none;
 }
 
-
 #container1{
   display: flex; 
   text-align: center;
@@ -73,7 +71,6 @@ h1{
   display: flex; 
   text-align: center;
 }
-
 
 #footer{
   background-color: rgb(240 240 240);
@@ -95,7 +92,7 @@ h1{
 
 #intro{
   margin-left:3vw;
-  margin-right: 3vw;
+  margin-right: 8vw;
 }
 
 .caption{
@@ -128,11 +125,11 @@ h1{
   color: rgb(199 193 182);
 }
 
-
 #email{
   border: none;
   border-bottom : 2px solid black;
-  width: 25vw;
+  width: 15rem;
+  min-width: 15rem;
   background-color: rgb(240 240 240);
   text-align: left;
   margin-left: 1rem;
@@ -151,8 +148,6 @@ h1{
   margin-left: -50vw;
   margin-right: -50vw;
 }
-
-
 
 .text-photo{
   width: 100%;
