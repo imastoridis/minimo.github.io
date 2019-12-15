@@ -1,0 +1,159 @@
+
+@font-face { 
+font-family: 'UBUNTU'; 
+src: url('fontsubuntu/UBUNTU.eot') format('eot'), 
+url('fontsubuntu/UBUNTU.woff') format('woff'), 
+url('fontsubuntu/UBUNTU.ttf') format('truetype'), 
+url('fontsubuntu/UBUNTU.svg') format('svg'); 
+}
+
+@font-face { 
+font-family: 'Playfair_Display'; 
+src: url('FONTSPLAYFAIR/Playfair_Display.eot') format('eot'), 
+url('FONTSPLAYFAIR/Playfair_Display.woff') format('woff'), 
+url('FONTSPLAYFAIR/Playfair_Display.ttf') format('truetype'), 
+url('FONTSPLAYFAIR/Playfair_Display.svg') format('svg'); 
+}
+
+@media screen and (min-width: 50em){
+  html { 
+  font-size: 1vw;
+  }
+}
+
+
+
+
+
+#header{
+  text-align: center;
+  font-family: 'UBUNTU';
+}
+
+#navbar{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;  
+  font-family: 'Playfair_Display'; 
+}
+ 
+.nav-link{  
+  padding-right: 2.5em;
+  font-family: 'Playfair_Display'; 
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+body{
+  color: rgb(98 98 98);
+  font-family: 'Playfair_Display'; 
+}
+
+
+#container1{
+  display: flex; 
+  text-align: center;
+}
+
+#container2{
+  display: flex; 
+  text-align: center;
+}
+
+
+#footer{
+  background-color: rgb(240 240 240);
+  text-align: center;
+  padding: 80px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#intro{
+  margin-left:4em;
+  margin-right: 4em;
+}
+
+.caption{
+  margin-left: 1.7em;
+  margin-right: 1em;
+  text-align: left; 
+  font-weight:bold;
+  font-size: 1.7em;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+.text{
+  margin-left: 3vw;
+  margin-right: 3vw;
+  text-align: justify;
+}
+
+.title{
+  font-size: 1vw;
+  margin-left: 4.3em;
+  text-align: left;
+  padding-top: 30px;
+  color: rgb(199 193 182);
+}
+
+.title1{
+  text-align: left;
+  margin-left: 4.3vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(199 193 182);
+}
+
+img,a, #image{
+  pointer-events: none;
+}
+
+#email{
+  border: none;
+  border-bottom : 2px solid black;
+  width: 25em;
+  background-color: rgb(240 240 240);
+}
+
+#button{
+  border:none;
+  font-size: 25px;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+#logo{
+  margin-right: 22em;
+  pointer-events: none;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+.text-photo{
+  width: 100%;
+  height: auto;
+  max-width: 420px;
+}
