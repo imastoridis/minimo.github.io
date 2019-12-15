@@ -22,9 +22,6 @@ url('FONTSPLAYFAIR/Playfair_Display.svg') format('svg');
 }
 
 
-
-
-
 #header{
   text-align: center;
   font-family: 'UBUNTU';
@@ -51,7 +48,10 @@ body{
   font-family: 'Playfair_Display'; 
 }
 
-
+#logo{
+  margin-right: 21em;
+  pointer-events: none;
+}
 #container1{
   display: flex; 
   text-align: center;
@@ -92,8 +92,6 @@ body{
   text-align: left; 
   font-weight:bold;
   font-size: 1.7em;
-  padding-top: 10px;
-  padding-bottom: 10px; 
 }
 
 .text{
@@ -104,15 +102,15 @@ body{
 
 .title{
   font-size: 1vw;
-  margin-left: 4.3em;
+  margin-left: 3em;
   text-align: left;
-  padding-top: 30px;
+  padding-top: 10px;
   color: rgb(199 193 182);
 }
 
 .title1{
-  text-align: left;
-  margin-left: 4.3vw;
+  text-align: left; 
+  margin-right: 4.3vw;
   padding-top: 10px;
   padding-bottom: 10px;
   color: rgb(199 193 182);
@@ -125,13 +123,15 @@ img,a, #image{
 #email{
   border: none;
   border-bottom : 2px solid black;
-  width: 25em;
+  width: 25vw;
   background-color: rgb(240 240 240);
+  text-align: left;
+  margin-left: 1em;
 }
 
 #button{
   border:none;
-  font-size: 25px;
+  font-size: 3vw;
 }
 
 .full-width {
@@ -143,11 +143,6 @@ img,a, #image{
   margin-right: -50vw;
 }
 
-#logo{
-  margin-right: 22em;
-  pointer-events: none;
-}
-
 h1{
   font-size: 2.5em;
 }
@@ -156,4 +151,5 @@ h1{
   width: 100%;
   height: auto;
   max-width: 420px;
+  max-height: 280px;
 }
