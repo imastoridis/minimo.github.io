@@ -17,6 +17,7 @@ url('FONTSPLAYFAIR/Playfair_Display.svg') format('svg');
 
 html{
   font-size: 100%;
+
 }
 @media screen and (min-width: 50em){
   html { 
@@ -33,6 +34,9 @@ img,a, #image{
   pointer-events: none;
 }
 
+h1{
+  font-size: 3rem;
+}
 #header{
   text-align: center;
   font-family: 'UBUNTU';
@@ -118,7 +122,8 @@ img,a, #image{
 
 .title1{
   text-align: left; 
-  margin-right: 4.3vw;
+  margin-left: 3rem;
+  margin-right: 4.3rem;
   padding-top: 10px;
   padding-bottom: 10px;
   color: rgb(199 193 182);
@@ -128,10 +133,10 @@ img,a, #image{
 #email{
   border: none;
   border-bottom : 2px solid black;
-  width: 25vw;
+  width: 25em;
   background-color: rgb(240 240 240);
   text-align: left;
-  margin-left: 1em;
+  margin-left: 1rem;
 }
 
 #button{
@@ -148,9 +153,7 @@ img,a, #image{
   margin-right: -50vw;
 }
 
-h1{
-  font-size: 3rem;
-}
+
 
 .text-photo{
   width: 100%;
